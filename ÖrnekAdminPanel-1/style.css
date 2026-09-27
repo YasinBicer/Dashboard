@@ -1,0 +1,89 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+a img, :link img, :visited img {
+border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.header{ width:82%; height:50px ;float:right; background-color:#1d2634 ; border-bottom:1px solid #000; color:#999}
+.search{ height:auto; width:30px; float:left; margin:10px 0 0 10px }
+.notifications{ height:auto; width:30px; float:right; margin:10px 0 0 0}
+.email{ height:auto; width:30px; float:right; margin:10px 0 0 0}
+.account_circle{ height:auto; width:30px; float:right; margin:10px 0 0 0}
+
+
+
+
+.aside{ width:18%; height:800px; float:left; background:#263043; color:#9e9ea4}
+.aside-SPİFFY{ width:100%; height:50px; text-align:center; line-height:50px; font-size:48px; margin:30px 0 0 0}
+.aside-items{ width:100%; height:auto; margin:60px 0 0 0}
+.aside-items ul li a{ height:80px ;display:block; text-align:center; line-height:80px; color:#999; font-size:24px}
+.aside-items ul li a:hover{ background-color:rgba(255, 255, 255, 0.95)}
+
+.main{ width:82%; height:750px; float:left; background:#1d2634 }
+.dashboard{ width:130px; height:auto; color:#CCC; margin:20px 0 0 30px }
+.card-icon{ float:right}
+.card-1{ margin:30px 0 0 40px; float:left}
+.card-2{ float:left; margin:30px 0 0 20px }
+.card-3{ float:left; margin:30px 0 0 20px}
+.card-4{ float:left; margin:30px 0 0 20px}
+
+.chart{ width:580px; height:350px; background-color:#263043; margin:60px 0 0 30px; float:left; }
+.chart-2{ width:580px; height:350px; background-color:#263043; margin:60px 0 0 20px; float:left}
+
